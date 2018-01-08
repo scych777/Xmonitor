@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Xmonitor</string>
+    <string name="prepare">準備開始錄影</string>
+    <string name="record">使用內建程式錄影</string>
+    <string name="playback">播放錄製影片</string>
+    <!--Video -->
+    <string name="startrecording">開始錄影</string>
+    <string name="stoprecording">停止錄影</string>
+    <string name="play">播放已錄製影片</string>
+</resources>

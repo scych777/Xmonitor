@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kelvin.xmonitor.LaunchPortal">
+
+    <Button
+        android:id="@+id/prepare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/prepare"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/record"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/playback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/playback"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
